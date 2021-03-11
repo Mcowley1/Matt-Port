@@ -3,6 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
 
 class Main extends React.Component {
   render() {
@@ -53,15 +55,19 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <a href="http://sneakerz-seekerz.herokuapp.com/">Sneakerz Seekerz</a>
           <p className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic03} alt="" />
           </p>
+          <a href="https://mcowley1.github.io/Cocktail-U/">CockTail-U</a>
           <p className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic04} alt="" />
           </p>
+          <a href="https://mcowley1.github.io/taskmaster-pro/">Taskmaster Pro</a>
           <p className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic05} alt="" />
           </p>
+          <a href="https://mcowley1.github.io/timed-quiz/">Timed-Quiz</a>
           {close}
         </article>
 
