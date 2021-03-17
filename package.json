@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "author": "Matthew Cowley",
   "dependencies": {
-    "babel-plugin-remove-graphql-queries": "^3.1.0",
-    "gatsby": "^2.19.5",
+    "gatsby": "^3.1.0",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
@@ -25,6 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "babel-plugin-remove-graphql-queries": "^3.1.0",
     "prettier": "^1.19.1"
   },
   "repository": {
