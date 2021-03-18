@@ -5,6 +5,7 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
+import resume from '../images/MC-resume.pdf'
 
 class Main extends React.Component {
   render() {
@@ -80,7 +81,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Resume</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <a href={resume} target="_blank" rel="noreferrer">Resume PDF Link</a>
           </span>
           <p>
             
